@@ -22,6 +22,7 @@ console.log(newObject);
 newObject = {
     ...newObject,
     money: newObject.money + 20,
-    timestamp: Date.now()
+    timestamp: Date.now(),
+    newField: 'test'
 };
 console.log(newObject);

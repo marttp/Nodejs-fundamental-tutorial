@@ -13,7 +13,7 @@ const person = {
 console.log(`${person.firstName} ${person.lastName}`);
 console.log(`${person['tel']} ${person['address']}`);
 // Tips 1 : เอา Keys ของ Object นั้นมาทั้งหมด
-console.log(Object.keys(person))
+console.log(Object.keys(person));
 // Tips 2 : เอา Values ของ Object นั้นมาทั้งหมด
 console.log(Object.values(person));
 // Tips 3 : เอา [key, value] pairs ออกมาจาก Object
