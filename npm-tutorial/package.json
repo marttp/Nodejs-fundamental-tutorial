@@ -1,0 +1,24 @@
+{
+  "name": "npm-tutorial",
+  "version": "1.0.0",
+  "description": "NPM project for nodejs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-args": "node index.js test something call argument",
+    "test": "jest"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "tutorial"
+  ],
+  "author": "Thanaphoom Babparn",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
