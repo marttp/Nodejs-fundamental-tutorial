@@ -29,6 +29,12 @@ const employees = [
     },
 ];
 
+// * some : ตรวจสอบว่ามี element นี้รึเปล่า
+const isOneExist = [2,3,1,4,5,6].some(val => val === 1);
+console.log({
+    isOneExist
+});
+
 const groupContainSumSalary = employees.reduce((prev, curr) => {
     return {
         ...prev,
@@ -37,5 +43,5 @@ const groupContainSumSalary = employees.reduce((prev, curr) => {
 }, {});
 console.log(groupContainSumSalary);
 
-
-// * function chaining
+// Reference เพิ่มเติม: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+// ลองเล่น: https://js-array-playground.firebaseapp.com/

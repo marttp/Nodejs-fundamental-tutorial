@@ -10,7 +10,7 @@ const checkRegisterForm = (username = '', password = '') => {
         if (password.length < 8) throw 'Password too short. Minimum 8 characters';
     } catch (error) {
         status.success = false;
-        status.message = error
+        status.message = error;
     }
     return status;
 }
